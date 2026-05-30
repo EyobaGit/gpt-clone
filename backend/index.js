@@ -57,7 +57,7 @@ async function startServer() {
       console.log("Server is running on port http://localhost:3777");
     });
   } catch (error) {
-    console.error("Error starting server:", error.message);
+    console.error("Error starting server:", error);
   }
 }
 app.use(errorHandler);
