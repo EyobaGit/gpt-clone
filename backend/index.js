@@ -48,7 +48,7 @@ async function startServer() {
     connection.release();
     console.log("Db connected");
 
-    const PORT = 3777;
+    const PORT = process.env.PORT || 3777;
 
     app.listen(PORT, (err) => {
       if (err) {
