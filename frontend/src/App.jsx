@@ -28,6 +28,7 @@ function App() {
   const fetchConversations = async () => {
     try {
       const response = await axios.get(`${API_BASE_URL}/chat/conversations`);
+
       if (response.data.status) {
         setConversations(response.data.data);
       }
