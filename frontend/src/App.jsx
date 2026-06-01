@@ -28,7 +28,7 @@ function App() {
   const fetchConversations = async () => {
     try {
       const response = await axios.get(
-        "postgresql://gpt_db_q647_user:LiOfFfYJgy9Lch9DbMjhyFLv1BxPG1mI@dpg-d8ekist8nd3s73an0sjg-a.oregon-postgres.render.com/chat/conversations",
+        "https://gpt-clone-backend-11.onrender.com/chat/conversations",
       );
 
       if (response.data.status) {
