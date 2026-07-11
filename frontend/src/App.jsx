@@ -6,7 +6,7 @@ import MessageList from "./components/MessageList/MessageList";
 import ChatInput from "./components/ChatInput/ChatInput";
 import "./App.css";
 
-const API_BASE_URL = `${import.meta.env.VITE_BASE_URL}/api`;
+const API_BASE_URL = "https://gpt-clone.eyobatech.com/api";
 console.log(API_BASE_URL);
 
 function App() {
